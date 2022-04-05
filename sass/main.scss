@@ -1,8 +1,17 @@
 @import './utils/variables';
 @import './utils/placeholders';
 @import './base/normalize';
+@import './components/common/body';
 @import './components/header/page-header';
 @import './components/common/container';
 @import './components/common/logo';
 @import './components/header/nav';
 @import './components/header/contact';
+@import './components/hero/hero';
+@import './components/hero/modal';
+@import './components/hero/form';
+@import './components/features-section/features';
+@import './components/work-section/work';
+@import './components/team-section/team';
+@import './components/team-section/card';
+@import './components/companies-section/companies';

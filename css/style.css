@@ -416,9 +416,9 @@ fill: var(--accent-color);
 .subtitle-team {
   color: var(--title-color);
 }
-.section-title.hide {
+/* .section-title.hide {
   display: none;
-}
+} */
 .section-title {
   font-weight: 700;
   font-size: 36px;
