@@ -1,15 +1,15 @@
-.page-header__contact-list{
+.contact__list{
     display: flex;
     margin-left: auto;
     align-items: center;
     @extend %list
 }
-.page-header__contact-item{
+.contact__item{
     margin-right: 50px;
     display: flex;
     align-items: center;
 }
-.page-header__contact-link{
+.contact__link{
     display: inline-flex;
     align-items: center;
     color: $main-text-color;
@@ -24,7 +24,7 @@
         fill: $accent-color;
     }
 }
-.page-header__contact-icon{
+.contact__icon{
     margin-right: 10px;
     fill: currentColor;
 }

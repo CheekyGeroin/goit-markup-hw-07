@@ -1,16 +1,16 @@
 
-.page-header__nav-list{
+.site-nav__list{
     display: flex;
     @extend %list
 }
-.page-header__nav-item{
+.site-nav__item{
     margin-right: 50px;
 
     &:last-child{
         margin-right: 0;
     }
 }
-.page-header__nav-link{
+.site-nav__link{
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -38,7 +38,7 @@
         background-color: $accent-color;
     }
 }
-.page-header__nav-link--active{
+.site-nav__link--active{
     position: relative;
     color: $accent-color;
 }
